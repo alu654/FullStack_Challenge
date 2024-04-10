@@ -1,0 +1,48 @@
+.confirm-booking-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .confirm-booking-title {
+    margin-bottom: 20px;
+  }
+  
+  .service-details {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .booking-actions {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .confirm-button, .back-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .confirm-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .back-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .confirm-button:hover {
+    background-color: #45a049;
+  }
+  
+  .back-button:hover {
+    background-color: #d32f2f;
+  }
+  

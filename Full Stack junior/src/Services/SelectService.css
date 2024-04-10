@@ -1,0 +1,55 @@
+.select-service-container {
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.select-service-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  font-weight: bold; 
+  color: #000;
+}
+
+
+.category-container {
+  margin-bottom: 10px;
+}
+
+.category-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.service-list {
+  margin-top: 10px;
+}
+
+.service-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #f9f9f9;
+}
+
+.service-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.service-description {
+  margin-top: 5px;
+  font-size: 0.9em;
+  color: #333;
+}

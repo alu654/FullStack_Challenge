@@ -1,0 +1,102 @@
+body, html {
+
+  padding-top: 200000px;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  background-color: #f4f4f4 !important;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar-container {
+  position: sticky;
+  top: 20px; /* Ajusta este valor para dar más o menos espacio en la parte superior */
+  z-index: 100; /* Asegúrate de que tiene un z-index alto para que se superponga a otros elementos */
+  background-color: #ffffff; /* O cualquier color de fondo que coincida con tu diseño */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Opcional: agrega una sombra para un efecto elevado */
+  padding: 10px 0; /* Añade un poco de relleno para que no esté pegado directamente a los bordes de la pantalla */
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.service-item, .timeslot-item {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.service-item:hover, .timeslot-item:hover {
+  background-color: #efefef;
+}
+
+.selected {
+  border-color: #007bff;
+  background-color: #e7f1ff;
+}
+
+.step-indicator {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+button.view-reservations {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+}
+

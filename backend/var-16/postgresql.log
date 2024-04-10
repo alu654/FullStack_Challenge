@@ -1,0 +1,154 @@
+2024-04-05 16:44:25.942 -03 [52670] LOG:  starting PostgreSQL 16.2 (Postgres.app) on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2024-04-05 16:44:25.944 -03 [52670] LOG:  listening on IPv6 address "::1", port 5435
+2024-04-05 16:44:25.944 -03 [52670] LOG:  listening on IPv4 address "127.0.0.1", port 5435
+2024-04-05 16:44:25.944 -03 [52670] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5435"
+2024-04-05 16:44:25.946 -03 [52673] LOG:  database system was shut down at 2024-04-05 16:44:25 -03
+2024-04-05 16:44:25.947 -03 [52670] LOG:  database system is ready to accept connections
+2024-04-05 16:44:42.428 -03 [52670] LOG:  received fast shutdown request
+2024-04-05 16:44:42.428 -03 [52670] LOG:  aborting any active transactions
+2024-04-05 16:44:42.429 -03 [52670] LOG:  background worker "logical replication launcher" (PID 52676) exited with exit code 1
+2024-04-05 16:44:42.430 -03 [52671] LOG:  shutting down
+2024-04-05 16:44:42.430 -03 [52671] LOG:  checkpoint starting: shutdown immediate
+2024-04-05 16:44:42.474 -03 [52671] LOG:  checkpoint complete: wrote 941 buffers (5.7%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.035 s, sync=0.009 s, total=0.045 s; sync files=308, longest=0.001 s, average=0.001 s; distance=4317 kB, estimate=4317 kB; lsn=0/193DDB0, redo lsn=0/193DDB0
+2024-04-05 16:44:42.477 -03 [52670] LOG:  database system is shut down
+2024-04-05 16:45:39.265 -03 [52821] LOG:  starting PostgreSQL 16.2 (Postgres.app) on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2024-04-05 16:45:39.267 -03 [52821] LOG:  listening on IPv6 address "::1", port 5435
+2024-04-05 16:45:39.267 -03 [52821] LOG:  listening on IPv4 address "127.0.0.1", port 5435
+2024-04-05 16:45:39.267 -03 [52821] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5435"
+2024-04-05 16:45:39.269 -03 [52824] LOG:  database system was shut down at 2024-04-05 16:44:51 -03
+2024-04-05 16:45:39.272 -03 [52821] LOG:  database system is ready to accept connections
+2024-04-05 16:50:39.272 -03 [52822] LOG:  checkpoint starting: time
+2024-04-05 16:50:43.680 -03 [52822] LOG:  checkpoint complete: wrote 46 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.393 s, sync=0.006 s, total=4.409 s; sync files=12, longest=0.001 s, average=0.001 s; distance=268 kB, estimate=268 kB; lsn=0/1981BD0, redo lsn=0/1981B98
+2024-04-05 16:55:39.685 -03 [52822] LOG:  checkpoint starting: time
+2024-04-05 16:55:46.339 -03 [52822] LOG:  checkpoint complete: wrote 66 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.644 s, sync=0.005 s, total=6.654 s; sync files=51, longest=0.001 s, average=0.001 s; distance=214 kB, estimate=263 kB; lsn=0/19B7770, redo lsn=0/19B7738
+2024-04-05 17:15:39.369 -03 [52822] LOG:  checkpoint starting: time
+2024-04-05 17:15:43.787 -03 [52822] LOG:  checkpoint complete: wrote 44 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.405 s, sync=0.007 s, total=4.418 s; sync files=39, longest=0.003 s, average=0.001 s; distance=154 kB, estimate=252 kB; lsn=0/19DE1E0, redo lsn=0/19DE1A8
+2024-04-05 17:35:39.821 -03 [52822] LOG:  checkpoint starting: time
+2024-04-05 17:35:43.434 -03 [52822] LOG:  checkpoint complete: wrote 36 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.605 s, sync=0.004 s, total=3.613 s; sync files=35, longest=0.001 s, average=0.001 s; distance=152 kB, estimate=242 kB; lsn=0/1A04430, redo lsn=0/1A043F8
+2024-04-05 17:37:26.362 -03 [1203] LOG:  starting PostgreSQL 16.2 (Postgres.app) on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2024-04-05 17:37:26.365 -03 [1203] LOG:  listening on IPv6 address "::1", port 5435
+2024-04-05 17:37:26.365 -03 [1203] LOG:  listening on IPv4 address "127.0.0.1", port 5435
+2024-04-05 17:37:26.365 -03 [1203] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5435"
+2024-04-05 17:37:26.370 -03 [1207] LOG:  database system was interrupted; last known up at 2024-04-05 17:35:43 -03
+2024-04-05 17:37:26.436 -03 [1207] LOG:  database system was not properly shut down; automatic recovery in progress
+2024-04-05 17:37:26.439 -03 [1207] LOG:  redo starts at 0/1A043F8
+2024-04-05 17:37:26.439 -03 [1207] LOG:  invalid record length at 0/1A044E0: expected at least 24, got 0
+2024-04-05 17:37:26.439 -03 [1207] LOG:  redo done at 0/1A044A8 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2024-04-05 17:37:26.442 -03 [1205] LOG:  checkpoint starting: end-of-recovery immediate wait
+2024-04-05 17:37:26.443 -03 [1205] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.002 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/1A044E0, redo lsn=0/1A044E0
+2024-04-05 17:37:26.444 -03 [1203] LOG:  database system is ready to accept connections
+2024-04-05 17:53:09.655 -03 [2324] FATAL:  role "salon" does not exist
+2024-04-05 17:53:12.712 -03 [2327] FATAL:  role "salon" does not exist
+2024-04-05 17:53:15.736 -03 [2333] FATAL:  role "salon" does not exist
+2024-04-05 17:53:18.779 -03 [2335] FATAL:  role "salon" does not exist
+2024-04-05 17:53:21.814 -03 [2341] FATAL:  role "salon" does not exist
+2024-04-05 17:53:24.851 -03 [2345] FATAL:  role "salon" does not exist
+2024-04-05 17:53:27.888 -03 [2348] FATAL:  role "salon" does not exist
+2024-04-05 17:53:30.941 -03 [2364] FATAL:  role "salon" does not exist
+2024-04-05 17:53:33.979 -03 [2366] FATAL:  role "salon" does not exist
+2024-04-05 17:54:01.097 -03 [2415] FATAL:  database "salon" does not exist
+2024-04-05 17:54:04.151 -03 [2418] FATAL:  database "salon" does not exist
+2024-04-05 17:54:07.190 -03 [2424] FATAL:  database "salon" does not exist
+2024-04-05 17:54:10.235 -03 [2428] FATAL:  database "salon" does not exist
+2024-04-05 17:54:13.280 -03 [2430] FATAL:  database "salon" does not exist
+2024-04-05 17:54:16.308 -03 [2436] FATAL:  database "salon" does not exist
+2024-04-05 17:54:19.346 -03 [2438] FATAL:  database "salon" does not exist
+2024-04-05 17:54:22.383 -03 [2445] FATAL:  database "salon" does not exist
+2024-04-05 17:54:25.429 -03 [2449] FATAL:  database "salon" does not exist
+2024-04-05 17:54:38.027 -03 [2484] FATAL:  database "salon" does not exist
+2024-04-05 17:56:59.346 -03 [2610] ERROR:  syntax error at or near "cd" at character 1
+2024-04-05 17:56:59.346 -03 [2610] STATEMENT:  cd ..
+	CREATE DATABASE salon;
+2024-04-05 17:57:21.676 -03 [1203] LOG:  received fast shutdown request
+2024-04-05 17:57:21.677 -03 [1203] LOG:  aborting any active transactions
+2024-04-05 17:57:21.677 -03 [2610] FATAL:  terminating connection due to administrator command
+2024-04-05 17:57:21.680 -03 [1203] LOG:  background worker "logical replication launcher" (PID 1215) exited with exit code 1
+2024-04-05 17:57:21.680 -03 [1205] LOG:  shutting down
+2024-04-05 17:57:21.680 -03 [1205] LOG:  checkpoint starting: shutdown immediate
+2024-04-05 17:57:21.734 -03 [1205] LOG:  checkpoint complete: wrote 947 buffers (5.8%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.044 s, sync=0.009 s, total=0.055 s; sync files=305, longest=0.001 s, average=0.001 s; distance=4332 kB, estimate=4332 kB; lsn=0/1E3F708, redo lsn=0/1E3F708
+2024-04-05 17:57:21.740 -03 [1203] LOG:  database system is shut down
+2024-04-05 17:57:22.688 -03 [2665] LOG:  starting PostgreSQL 16.2 (Postgres.app) on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2024-04-05 17:57:22.690 -03 [2665] LOG:  listening on IPv6 address "::1", port 5435
+2024-04-05 17:57:22.690 -03 [2665] LOG:  listening on IPv4 address "127.0.0.1", port 5435
+2024-04-05 17:57:22.690 -03 [2665] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5435"
+2024-04-05 17:57:22.694 -03 [2668] LOG:  database system was shut down at 2024-04-05 17:57:21 -03
+2024-04-05 17:57:22.709 -03 [2665] LOG:  database system is ready to accept connections
+2024-04-05 18:02:22.699 -03 [2666] LOG:  checkpoint starting: time
+2024-04-05 18:02:28.217 -03 [2666] LOG:  checkpoint complete: wrote 57 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.510 s, sync=0.004 s, total=5.518 s; sync files=45, longest=0.001 s, average=0.001 s; distance=162 kB, estimate=162 kB; lsn=0/1E67F90, redo lsn=0/1E67F58
+2024-04-05 18:17:22.234 -03 [2666] LOG:  checkpoint starting: time
+2024-04-05 18:17:27.447 -03 [2666] LOG:  checkpoint complete: wrote 52 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.201 s, sync=0.007 s, total=5.213 s; sync files=44, longest=0.002 s, average=0.001 s; distance=181 kB, estimate=181 kB; lsn=0/1E95578, redo lsn=0/1E95540
+2024-04-06 12:01:45.168 -03 [2666] LOG:  checkpoint starting: time
+2024-04-06 12:01:46.392 -03 [2666] LOG:  checkpoint complete: wrote 12 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.219 s, sync=0.002 s, total=1.225 s; sync files=7, longest=0.001 s, average=0.001 s; distance=18 kB, estimate=165 kB; lsn=0/1E99DB0, redo lsn=0/1E99D78
+2024-04-06 14:22:37.626 -03 [2666] LOG:  checkpoint starting: time
+2024-04-06 14:22:38.147 -03 [2666] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.511 s, sync=0.002 s, total=0.522 s; sync files=5, longest=0.001 s, average=0.001 s; distance=5 kB, estimate=149 kB; lsn=0/1E9B2C8, redo lsn=0/1E9B290
+2024-04-06 15:06:00.821 -03 [2666] LOG:  checkpoint starting: time
+2024-04-06 15:06:04.922 -03 [2666] LOG:  checkpoint complete: wrote 41 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.089 s, sync=0.006 s, total=4.102 s; sync files=38, longest=0.002 s, average=0.001 s; distance=153 kB, estimate=153 kB; lsn=0/1EC16D0, redo lsn=0/1EC1698
+2024-04-06 15:40:52.479 -03 [12085] ERROR:  relation "booking" already exists
+2024-04-06 15:40:52.479 -03 [12085] STATEMENT:  CREATE TABLE booking (
+	    id SERIAL PRIMARY KEY,
+	    date_time TIMESTAMP WITHOUT TIME ZONE NOT NULL,
+	    service_id INTEGER,
+	    CONSTRAINT fk_service
+	        FOREIGN KEY(service_id) 
+	        REFERENCES service(id)
+	);
+2024-04-06 15:41:35.153 -03 [2666] LOG:  checkpoint starting: time
+2024-04-06 15:41:37.406 -03 [2666] LOG:  checkpoint complete: wrote 23 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.242 s, sync=0.004 s, total=2.253 s; sync files=22, longest=0.001 s, average=0.001 s; distance=52 kB, estimate=142 kB; lsn=0/1ECE938, redo lsn=0/1ECE900
+2024-04-06 15:42:26.248 -03 [12085] ERROR:  syntax error at or near "SELECT" at character 23
+2024-04-06 15:42:26.248 -03 [12085] STATEMENT:  SELECT * FROM booking
+	SELECT * FROM booking;
+2024-04-06 15:42:36.130 -03 [12085] ERROR:  column "date_time" of relation "booking" does not exist at character 22
+2024-04-06 15:42:36.130 -03 [12085] STATEMENT:  INSERT INTO booking (date_time, service_id) VALUES ('2024-04-06 15:00:00', 1);
+2024-04-06 15:46:35.414 -03 [2666] LOG:  checkpoint starting: time
+2024-04-06 15:46:36.438 -03 [2666] LOG:  checkpoint complete: wrote 11 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.018 s, sync=0.002 s, total=1.025 s; sync files=10, longest=0.001 s, average=0.001 s; distance=2 kB, estimate=128 kB; lsn=0/1ECF4F8, redo lsn=0/1ECF4C0
+2024-04-06 16:06:35.497 -03 [2666] LOG:  checkpoint starting: time
+2024-04-06 16:06:35.922 -03 [2666] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.410 s, sync=0.009 s, total=0.426 s; sync files=5, longest=0.008 s, average=0.002 s; distance=2 kB, estimate=116 kB; lsn=0/1ED00E8, redo lsn=0/1ED00B0
+2024-04-07 10:53:46.827 -03 [2666] LOG:  checkpoint starting: time
+2024-04-07 10:53:47.251 -03 [2666] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.411 s, sync=0.002 s, total=0.425 s; sync files=5, longest=0.002 s, average=0.001 s; distance=2 kB, estimate=105 kB; lsn=0/1ED0CD8, redo lsn=0/1ED0CA0
+2024-04-07 10:58:46.255 -03 [2666] LOG:  checkpoint starting: time
+2024-04-07 10:58:46.674 -03 [2666] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.409 s, sync=0.004 s, total=0.419 s; sync files=5, longest=0.003 s, average=0.001 s; distance=3 kB, estimate=94 kB; lsn=0/1ED1A30, redo lsn=0/1ED19F8
+2024-04-07 11:23:46.681 -03 [2666] LOG:  checkpoint starting: time
+2024-04-07 11:23:47.096 -03 [2666] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.409 s, sync=0.002 s, total=0.415 s; sync files=5, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=85 kB; lsn=0/1ED2740, redo lsn=0/1ED2708
+2024-04-07 16:05:20.356 -03 [2666] LOG:  checkpoint starting: time
+2024-04-07 16:05:20.779 -03 [2666] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.412 s, sync=0.002 s, total=0.424 s; sync files=5, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=77 kB; lsn=0/1ED3488, redo lsn=0/1ED3450
+2024-04-07 19:33:53.714 -03 [2666] LOG:  checkpoint starting: time
+2024-04-07 19:33:54.144 -03 [2666] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.417 s, sync=0.004 s, total=0.431 s; sync files=5, longest=0.002 s, average=0.001 s; distance=3 kB, estimate=70 kB; lsn=0/1ED4228, redo lsn=0/1ED41F0
+2024-04-08 09:55:49.380 -03 [2666] LOG:  checkpoint starting: time
+2024-04-08 09:55:49.496 -03 [2666] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.104 s, sync=0.002 s, total=0.117 s; sync files=2, longest=0.002 s, average=0.001 s; distance=1 kB, estimate=63 kB; lsn=0/1ED4878, redo lsn=0/1ED4840
+2024-04-08 10:40:49.530 -03 [2666] LOG:  checkpoint starting: time
+2024-04-08 10:40:49.950 -03 [2666] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.410 s, sync=0.002 s, total=0.421 s; sync files=5, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=57 kB; lsn=0/1ED5650, redo lsn=0/1ED5618
+2024-04-08 10:45:49.954 -03 [2666] LOG:  checkpoint starting: time
+2024-04-08 10:45:50.373 -03 [2666] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.408 s, sync=0.003 s, total=0.419 s; sync files=5, longest=0.003 s, average=0.001 s; distance=4 kB, estimate=51 kB; lsn=0/1ED6738, redo lsn=0/1ED6700
+2024-04-08 11:40:49.419 -03 [2666] LOG:  checkpoint starting: time
+2024-04-08 11:40:49.840 -03 [2666] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.411 s, sync=0.002 s, total=0.422 s; sync files=5, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=47 kB; lsn=0/1ED7640, redo lsn=0/1ED7608
+2024-04-08 15:02:02.844 -03 [2666] LOG:  checkpoint starting: time
+2024-04-08 15:02:03.273 -03 [2666] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.416 s, sync=0.002 s, total=0.430 s; sync files=5, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=42 kB; lsn=0/1ED8550, redo lsn=0/1ED8518
+2024-04-08 15:07:02.278 -03 [2666] LOG:  checkpoint starting: time
+2024-04-08 15:07:02.698 -03 [2666] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.410 s, sync=0.003 s, total=0.420 s; sync files=5, longest=0.002 s, average=0.001 s; distance=4 kB, estimate=38 kB; lsn=0/1ED9878, redo lsn=0/1ED9840
+2024-04-08 17:31:21.263 -03 [2666] LOG:  checkpoint starting: time
+2024-04-08 17:31:21.682 -03 [2666] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.410 s, sync=0.002 s, total=0.419 s; sync files=5, longest=0.002 s, average=0.001 s; distance=4 kB, estimate=35 kB; lsn=0/1EDA8A8, redo lsn=0/1EDA870
+2024-04-08 18:11:21.755 -03 [2666] LOG:  checkpoint starting: time
+2024-04-08 18:11:21.970 -03 [2666] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.205 s, sync=0.002 s, total=0.215 s; sync files=3, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=32 kB; lsn=0/1EDB6E0, redo lsn=0/1EDB6A8
+2024-04-08 19:09:22.487 -03 [2666] LOG:  checkpoint starting: time
+2024-04-08 19:09:22.909 -03 [2666] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.412 s, sync=0.002 s, total=0.422 s; sync files=5, longest=0.001 s, average=0.001 s; distance=4 kB, estimate=29 kB; lsn=0/1EDC788, redo lsn=0/1EDC750
+2024-04-09 09:20:00.107 -03 [2666] LOG:  checkpoint starting: time
+2024-04-09 09:20:00.220 -03 [2666] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.103 s, sync=0.002 s, total=0.114 s; sync files=2, longest=0.002 s, average=0.001 s; distance=1 kB, estimate=26 kB; lsn=0/1EDCD00, redo lsn=0/1EDCCC8
+2024-04-09 09:45:00.249 -03 [2666] LOG:  checkpoint starting: time
+2024-04-09 09:45:00.668 -03 [2666] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.410 s, sync=0.002 s, total=0.419 s; sync files=5, longest=0.001 s, average=0.001 s; distance=4 kB, estimate=24 kB; lsn=0/1EDDDD8, redo lsn=0/1EDDDA0
+2024-04-09 09:50:00.674 -03 [2666] LOG:  checkpoint starting: time
+2024-04-09 09:50:00.889 -03 [2666] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.206 s, sync=0.002 s, total=0.216 s; sync files=3, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=22 kB; lsn=0/1EDECC0, redo lsn=0/1EDEC88
+2024-04-09 10:54:59.206 -03 [2666] LOG:  checkpoint starting: time
+2024-04-09 10:54:59.625 -03 [2666] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.411 s, sync=0.002 s, total=0.420 s; sync files=5, longest=0.001 s, average=0.001 s; distance=4 kB, estimate=20 kB; lsn=0/1EDFFA0, redo lsn=0/1EDFF68
+2024-04-09 15:48:43.944 -03 [2666] LOG:  checkpoint starting: time
+2024-04-09 15:48:44.371 -03 [2666] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.415 s, sync=0.002 s, total=0.427 s; sync files=5, longest=0.001 s, average=0.001 s; distance=4 kB, estimate=18 kB; lsn=0/1EE1158, redo lsn=0/1EE1120
+2024-04-09 15:58:43.379 -03 [2666] LOG:  checkpoint starting: time
+2024-04-09 15:58:43.801 -03 [2666] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.412 s, sync=0.002 s, total=0.422 s; sync files=5, longest=0.001 s, average=0.001 s; distance=4 kB, estimate=17 kB; lsn=0/1EE2448, redo lsn=0/1EE2410
+2024-04-09 17:32:50.888 -03 [2665] LOG:  received fast shutdown request
+2024-04-09 17:32:50.888 -03 [2665] LOG:  aborting any active transactions
+2024-04-09 17:32:50.889 -03 [12085] FATAL:  terminating connection due to administrator command
+2024-04-09 17:32:50.889 -03 [2820] FATAL:  terminating connection due to administrator command
+2024-04-09 17:32:50.892 -03 [2665] LOG:  background worker "logical replication launcher" (PID 2671) exited with exit code 1
+2024-04-09 17:32:50.894 -03 [2666] LOG:  shutting down
+2024-04-09 17:32:50.894 -03 [2666] LOG:  checkpoint starting: shutdown immediate
+2024-04-09 17:32:50.897 -03 [2666] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.003 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=15 kB; lsn=0/1EE24F8, redo lsn=0/1EE24F8
+2024-04-09 17:32:50.900 -03 [2665] LOG:  database system is shut down
