@@ -1,11 +1,11 @@
 # Challenge Desarrollador Junior
 
-## Esta es una sencilla aplicación para gestionar un Tunro. Permite registrar un usuario y este podra Crear, eliminar y guardar turnos en su calendario. 
+## Esta es una sencilla aplicación para gestionar un Turno. Permite registrar un usuario e iniciar sesion. Este podra Crear, eliminar y guardar turnos en su calendario. 
 
 [BACK END] Requisitos previos Antes de ejecutar este proyecto, asegúrese de tener instalado lo siguiente:
 
-Nodo.js
-npm (Administrador de paquetes de nodos)
+Node.js
+npm (Administrador de paquetes)
 PostgreSQL
 Instalar dependencias del proyecto:
 # Instrucciones para Instalar y Configurar PostgreSQL en Debian
@@ -107,3 +107,6 @@ Instalar dependencias del proyecto:
 Y para ejecutar el proyecto 
 
 -npm run dev 
+
+Cualquier consulta, duda o error por favor contactarme 
+Muchas gracias por el haberme dado la oportunidad de hacer el challenge y por tomarse el tiempo de leerlo 
